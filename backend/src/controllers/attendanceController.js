@@ -4,7 +4,7 @@ const ProcessedEvent = require('../models/ProcessedEvent');
 const Shift = require('../models/Shift');
 const GeoConfig = require('../models/GeoConfig');
 const { isWithinZone } = require('../utils/geoUtils');
-const throwIfValidationFails = requir e('../utils/validationResult');
+const throwIfValidationFails = require('../utils/validationResult');
 
 function startOfDayUTC(date) {
   const d = new Date(date);
